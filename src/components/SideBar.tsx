@@ -5,7 +5,7 @@ const SideBar = () => {
   return (
     <div className="w-64 bg-white min-h-screen p-4">
       <div className="mb-8">
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center pt-3">
           <h1 className="text-2xl font-bold text-blue-600 p-4">TaskflowIO</h1>
         </Link>
       </div>
