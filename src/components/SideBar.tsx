@@ -3,7 +3,12 @@ import { Home, CheckSquare, Inbox, MessageSquare, BarChart2, Pencil } from 'luci
 
 const SideBar = () => {
   return (
-    <div className="w-64 bg-white border-r min-h-screen p-4">
+    <div className="w-64 bg-white min-h-screen p-4">
+      <div className="mb-8">
+        <Link to="/" className="flex items-center">
+          <h1 className="text-2xl font-bold text-blue-600 p-4">TaskflowIO</h1>
+        </Link>
+      </div>
       <nav className="space-y-2">
         <Link
           to="/"
