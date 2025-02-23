@@ -13,6 +13,7 @@ TaskFlowIO is an **open-source intelligent project management platform** designe
 
 ## 🛠️ Technologies Used
 - **Frontend**: React, Vite, TypeScript, Tailwind CSS
+- **Backend**: Express.js(Node.js), MongoDB
 - **State Management**: Zustand
 - **Drag-and-Drop**: dnd-kit
 
